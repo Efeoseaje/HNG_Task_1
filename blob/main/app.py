@@ -15,6 +15,8 @@ def info():
     current_time = datetime.now(pytz.utc) + timedelta(minutes=2)
     current_time_str = current_time.strftime('%Y-%m-%dT%H:%M:%SZ')
 
+    github_repo_url = 
+
 
 if __name__ == "__main__":
     app.run(debug=True)
