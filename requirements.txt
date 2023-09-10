@@ -13,7 +13,7 @@ cffi==1.15.1
 chardet==3.0.4
 cliapp<=1.20180812.1
 click==8.1.7
-cloud-init<=23.2.2
+# cloud-init==23.2.2
 cmdtest==0.32+git
 colorama==0.4.3
 comm<=0.1.3
