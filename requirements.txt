@@ -26,10 +26,10 @@ debugpy==1.6.7
 decorator==5.1.1
 defusedxml==0.7.1
 distro==1.4.0
-distro-info==0.23+ubuntu1.1
-entrypoints==0.3
-exceptiongroup==1.1.1
-executing==1.2.0
+distro-info<=0.23+ubuntu1.1
+# entrypoints==0.3
+# exceptiongroup==1.1.1
+# executing==1.2.0
 fastjsonschema==2.17.1
 Flask<=2.3.3
 Flask-WTF==1.1.1
