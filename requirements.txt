@@ -11,7 +11,7 @@ blinker==1.6.2
 certifi==2019.11.28
 cffi==1.15.1
 chardet==3.0.4
-cliapp==1.20180812.1
+cliapp<=1.20180812.1
 click==8.1.7
 cloud-init==23.2.2
 cmdtest==0.32+git
