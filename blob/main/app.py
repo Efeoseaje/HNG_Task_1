@@ -28,7 +28,7 @@ def get_info():
 
     github_repo_url = 'https://github.com/Efeoseaje/HNG_Task_1'
     github_file_url = \
-        'https://github.com/Efeoseaje/HNG_Task_1/tree/master/blob/main/main.py'
+        'https://github.com/Efeoseaje/HNG_Task_1/tree/master/blob/main/app.py'
 
     # Response data
     response_data = OrderedDict([
