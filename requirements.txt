@@ -13,10 +13,10 @@ cffi==1.15.1
 chardet==3.0.4
 cliapp<=1.20180812.1
 click==8.1.7
-cloud-init==23.2.2
+cloud-init<=23.2.2
 cmdtest==0.32+git
 colorama==0.4.3
-comm==0.1.3
+comm<=0.1.3
 command-not-found==0.3
 configobj==5.0.6
 constantly==15.1.0
@@ -31,7 +31,7 @@ entrypoints==0.3
 exceptiongroup==1.1.1
 executing==1.2.0
 fastjsonschema==2.17.1
-Flask==2.3.3
+Flask<=2.3.3
 Flask-WTF==1.1.1
 greenlet==2.0.2
 gunicorn==21.2.0
