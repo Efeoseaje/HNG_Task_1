@@ -18,8 +18,7 @@ def get_info():
             "error": "Missing required parameters",
             "status_code": 400
         }
-        return jsonify(error_response), 400, \
-            {'Content-Type': 'application/json'}
+        return jsonify(error_response), 400
 
     # Get the current day of the week
     current_day = datetime.now().strftime('%A')
@@ -29,7 +28,7 @@ def get_info():
 
     github_repo_url = 'https://github.com/Efeoseaje/HNG_Task_1'
     github_file_url = \
-        'https://github.com/Efeoseaje/HNG_Task_1/tree/master/blob/main/app.py'
+        'https://github.com/Efeoseaje/HNG_Task_1/tree/master/blob/main/main.py'
 
     # Response data
     response_data = OrderedDict([
