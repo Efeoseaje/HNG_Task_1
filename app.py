@@ -47,4 +47,4 @@ def get_info():
     return response_json, 200, {'Content-Type': 'application/json'}
 
 
-app.run(debug=True)
+app.run(debug=False, host='0.0.0.0')
