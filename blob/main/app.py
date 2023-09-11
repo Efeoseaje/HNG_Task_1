@@ -45,3 +45,6 @@ def get_info():
     response_json = json.dumps(response_data, indent=2)
 
     return response_json, 200, {'Content-Type': 'application/json'}
+
+
+app.run()
